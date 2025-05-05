@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Un gris oscuro elegante para el texto principal */
+    background-color: #f8f9fa; /* Un blanco hueso suave para el fondo */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #800020; /* Color vino intenso para los títulos */
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    background-color: #212529 !important; /* Negro carbón para la barra de navegación */
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #fff !important; /* Blanco para el logo y nombre del bufete */
+}
+
+.navbar-brand:hover {
+    color: #d3ad69 !important; /* Un dorado suave como acento al pasar el ratón */
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important; /* Blanco para los enlaces del menú */
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d3ad69 !important; /* Dorado suave al pasar el ratón */
+}
+
+.btn-primary {
+    background-color: #800020; /* Vino intenso para el botón primario */
+    border-color: #800020;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #a52a2a; /* Un tono de vino más claro al pasar el ratón */
+    border-color: #a52a2a;
+}
+
+.btn-outline-primary {
+    color: #800020;
+    border-color: #800020;
+    font-weight: 500;
+    transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(128, 0, 32, 0.1); /* Un ligero tinte vino al pasar el ratón */
+    border-color: #800020;
+    color: #800020;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0; /* Un gris claro para los bordes de las tarjetas */
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: #800020; /* Vino intenso para el título de la tarjeta */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.list-group-item-action:hover {
+    background-color: #f0f0f0; /* Un gris muy claro al pasar el ratón en la lista */
+}
+
+footer {
+    background-color: #343a40; /* Gris oscuro para el pie de página */
+    color: #f8f9fa; /* Blanco hueso para el texto del pie de página */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #d3ad69; /* Dorado suave para los enlaces del pie de página */
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Estilos adicionales para refinar la apariencia */
+.shadow-sm {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; /* Sombra más pronunciada para las tarjetas */
+}
+
+/* Estilos específicos para secciones */
+#servicios h2,
+#seguros h2,
+#comunicados h2,
+#cita h2,
+#dashboard-cliente h2 {
+    border-bottom: 2px solid #800020; /* Línea inferior color vino para los títulos de sección */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para el formulario de contacto */
+#cita .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#cita .form-control:focus {
+    border-color: #800020;
+    box-shadow: 0 0 0 0.2rem rgba(128, 0, 32, 0.25);
+}
+
+/* Estilos para el dashboard del cliente */
+#dashboard-cliente .card-header {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem;
+}
+
+#dashboard-cliente .card-body p strong {
+    color: #800020;
+}
